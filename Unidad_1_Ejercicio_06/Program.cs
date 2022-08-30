@@ -39,7 +39,7 @@ namespace Unidad__1_Ejercicio_06
             }
             for (int i = inicio; i < final; i++)
             {
-                if ( (i % 4 == 0 && i % 100 != 0) || (i % 4 == 0 && i % 100 == 0 && i % 400 == 0))
+                if (i % 4 == 0 && (i % 100 != 0) || (i % 100 == 0 && i % 400 == 0))
                 {
                         Console.WriteLine("Es año bisiesto: " + i);
                 }
