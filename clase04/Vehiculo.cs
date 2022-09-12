@@ -94,7 +94,7 @@ namespace clase04
             asd.AppendLine($"Muestro numero extra: " + numero);
             return asd.ToString();
         }
-
+        //--------------------------------------SOBRECARGA DE OPERADORES
 
     }   
 }
