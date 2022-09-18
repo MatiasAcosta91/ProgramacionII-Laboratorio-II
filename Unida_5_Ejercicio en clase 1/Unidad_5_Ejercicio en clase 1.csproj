@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>Unida_5_Ejercicio_en_clase_1</RootNamespace>
+    <RootNamespace>Unidad_5_Ejercicio_en_clase_1</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
