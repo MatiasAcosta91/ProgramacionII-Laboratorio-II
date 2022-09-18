@@ -7,8 +7,4 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\FACULTAD\Primer año\2022\Segundo cuatrimestre 2022\Labo y progra 2\Acosta.Matias\Unidad_5_Ejercicio en clase 1\</OutputPath>
-  </PropertyGroup>
-
 </Project>
