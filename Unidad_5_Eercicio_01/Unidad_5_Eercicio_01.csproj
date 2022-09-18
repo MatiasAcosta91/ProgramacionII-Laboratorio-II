@@ -3,8 +3,11 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>Clase06_WindowsForm</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unidad_5_Ejercicio_02\Unidad_5_Ejercicio_02.csproj" />
+  </ItemGroup>
 
 </Project>

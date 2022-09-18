@@ -8,18 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Clase06_WindowsForm
+namespace Unidad_5_Eercicio_01
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(string saludo, string nombre)
         {
             InitializeComponent();
-        }
-
-        private void btn_aceptar_Click(object sender, EventArgs e)
-        {
-            
+            this.lblSaludo.Text = saludo;
+            this.lblCatNombre.Text = nombre;
         }
     }
 }

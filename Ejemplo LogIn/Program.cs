@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Clase06_WindowsForm
+namespace Ejemplo_LogIn
 {
     static class Program
     {

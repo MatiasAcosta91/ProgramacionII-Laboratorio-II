@@ -47,7 +47,7 @@ namespace Unida_5_Ejercicio_en_clase_1
             // 
             this.lblSaludo.AutoSize = true;
             this.lblSaludo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSaludo.Location = new System.Drawing.Point(124, 68);
+            this.lblSaludo.Location = new System.Drawing.Point(127, 68);
             this.lblSaludo.Name = "lblSaludo";
             this.lblSaludo.Size = new System.Drawing.Size(40, 17);
             this.lblSaludo.TabIndex = 1;

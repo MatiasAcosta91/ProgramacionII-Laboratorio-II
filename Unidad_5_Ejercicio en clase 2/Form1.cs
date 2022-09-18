@@ -25,20 +25,31 @@ namespace Unidad_5_Ejercicio_en_clase_2
         private void texNumero_KeyPress(object sender, KeyPressEventArgs e)
         {
             int numero;
-            if(e.KeyChar == (char) Keys.Enter)
+            if (e.KeyChar == (char)Keys.Enter)
             {
                 this.IstTabla.Items.Clear();
-                numero = int.Parse(this.texNumero.Text);
+                numero = int.Parse(texNumero.Text);
                 for (int i = 1; i <= 10; i++)
                 {
-                    this.IstTabla.Items.Add(($"{i} x {numero} = {i * numero}"));                   
+
+                    this.IstTabla.Items.Add($"{i} x {numero} = {i * numero}");
                 }
-            }        
+            }
         }
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
             this.IstTabla.Items.Clear();
+            this.texNumero.Clear();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Desea cerrar la aplicación?", "mensaje de cierre", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                e.Cancel = false;
+            }
         }
     }
 }
