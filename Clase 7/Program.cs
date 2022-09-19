@@ -7,6 +7,7 @@ namespace Clase_7
     {
         static void Main(string[] args)
         {
+            #region Matrices
             //------------------------------------MATRICES-----------------------
             //estructura de datos que nos permite almacenar multiples variables del mismo tipo.
             /*
@@ -18,6 +19,7 @@ namespace Clase_7
              * 4_Valor por defecto: Todos los elementos se inicializan con un valor por defecto, tipo valor en 0
              * tipo referencia en null, tipo bool en false.
              */
+
             #region ARRAYS
             //---------------------------- ARRAYS (UNIDIMENSINALES)----------------------
             //se declara tipo de dato [] nombre de la variable =  new tipo de dato [Tamaño]
@@ -79,6 +81,7 @@ namespace Clase_7
             int[,,] arrayTri = new int[2, 4, 5]; //fila, columna,Z
 
             #endregion
+
             #region Matriz Escalonada
             //------------------------------------MATRICES Escalonada
             int[][] matrizEscalonada = new int[4][]; //declaro solo la cantidad de filas
@@ -90,6 +93,12 @@ namespace Clase_7
             matrizEscalonada[3] = new int[] { 5, 1, 4, 5, };
 
             #endregion
+            #endregion
+
+
+
+
+            #region Colecciones
             //---------------------------------COLECCIONES
             Console.WriteLine("------------------------COLECCIONES------------------");
             //Las colecciones SON OBJETOS especializados en almacenar, organizar y administrar gran cantidades de datos
@@ -303,7 +312,7 @@ namespace Clase_7
             hashtableGenerico.Add(5, "laura");
             hashtableGenerico.Add(21, "maria");
             //en este caso en lugar de usar el dictionary entro uso keyvaluepair
-            foreach (System.Collections.Generic.KeyValuePair<int,string> item in hashtableGenerico)
+            foreach (System.Collections.Generic.KeyValuePair<int, string> item in hashtableGenerico)
             {
                 Console.WriteLine($"KEY {item.Key} valor {item.Value}");
             }
@@ -317,7 +326,33 @@ namespace Clase_7
 
             #endregion
             #endregion
+            #endregion
 
+
+            #region Ejemplo usando las bibliotecas de clase Veterinaria y Mascota
+            Console.WriteLine("\n\n\n--------------EJ VETERINARIA MASCOTA-------------");
+            Veterinaria ejVeterinaria = new Veterinaria(4);
+
+            ejVeterinaria.Agregar(new Mascota("Gorda", 5));
+            ejVeterinaria.Agregar(new Mascota("Chas", 12));
+            ejVeterinaria.Agregar(new Mascota("Oso", 7));
+            ejVeterinaria.Agregar(new Mascota("Oso", 7));//Este no se va a agregar xq ya existe
+            // Oso con 7 años, ver metodoa gregar
+            ejVeterinaria.Agregar(new Mascota("Lobito", 13));
+            ejVeterinaria.Agregar(new Mascota("Bartolo", 16)); //este no se va a agregar xq no
+            //hay espacio disponible
+            Console.WriteLine("\n\n Muestro lo agregado\n\n");
+            foreach (Mascota item in ejVeterinaria.lista)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            foreach (Mascota item in ejVeterinaria.lista)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            #endregion
 
 
         }

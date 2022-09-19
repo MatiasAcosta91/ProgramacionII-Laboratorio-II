@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Biblioteca_Unidad_6_Ej_en_clase_01</RootNamespace>
+  </PropertyGroup>
+
+</Project>

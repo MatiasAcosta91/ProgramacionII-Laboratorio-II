@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Unidad_6_Ejercicio_en_clase_01</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca_Unidad_6_Ej en clase 01\Biblioteca_Unidad_6_Ej en clase 01.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -45,11 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clase03", "clase03\clase03.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiBiblioteca", "MiBiblioteca\MiBiblioteca.csproj", "{161BD720-3F4C-43D0-972B-13000DD7C79F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 1 Ejercicios", "Unidad 1 Ejercicios", "{3C0F3F1F-A831-4E53-A56B-2051530A2D24}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 1 Ejercicios - Introduccion", "Unidad 1 Ejercicios - Introduccion", "{3C0F3F1F-A831-4E53-A56B-2051530A2D24}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 2 Ejercicios", "Unidad 2 Ejercicios", "{715CAC52-C5D8-43B3-8352-81F101174EF5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 2 Ejercicios - Clases y metodos estaticos", "Unidad 2 Ejercicios - Clases y metodos estaticos", "{715CAC52-C5D8-43B3-8352-81F101174EF5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 3 Ejercicios", "Unidad 3 Ejercicios", "{015CC560-CBC4-42CB-BE76-A1329A2BF31A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 3 Ejercicios - POO", "Unidad 3 Ejercicios - POO", "{015CC560-CBC4-42CB-BE76-A1329A2BF31A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_3_Ejercicio_03", "Unidad_3_Ejercicio_03\Unidad_3_Ejercicio_03.csproj", "{E023469A-879E-4D91-B38A-13DFD04A6294}"
 EndProject
@@ -59,7 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_2_Ejercicio_05", "Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clase04", "clase04\clase04.csproj", "{69522A1E-E2C4-488A-B1D9-5865B34F1185}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 4 Ejercicios", "Unidad 4 Ejercicios", "{D3BE6587-62D4-478C-8F5A-DB47156EE9AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 4 Ejercicios - Sobrecargas", "Unidad 4 Ejercicios - Sobrecargas", "{D3BE6587-62D4-478C-8F5A-DB47156EE9AE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_4_Ejercicio en clase", "Unidad_4_Ejercicio en clase\Unidad_4_Ejercicio en clase.csproj", "{09CCD7EA-6EB9-4AE1-AB45-A2504CD98700}"
 EndProject
@@ -87,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca ejercicio en cla
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clases", "Clases", "{9F20F6AB-67C1-4D42-85B3-BD3EA42CC3EE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 5 Ejercicios", "Unidad 5 Ejercicios", "{08BFB956-6AEE-47EB-82B9-73BAAC9B2580}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 5 Ejercicios - WindowsForms", "Unidad 5 Ejercicios - WindowsForms", "{08BFB956-6AEE-47EB-82B9-73BAAC9B2580}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_5_Ejercicio en clase 2", "Unidad_5_Ejercicio en clase 2\Unidad_5_Ejercicio en clase 2.csproj", "{6FFDB53E-FAE0-4B08-B835-C911912A14CA}"
 EndProject
@@ -124,6 +124,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca_Unidad_5_Ejercicio_02", "Biblioteca_Ejercicio_02\Biblioteca_Unidad_5_Ejercicio_02.csproj", "{232EE919-8261-4068-B33A-41D008415576}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_5_Ejercicio en clase 1", "Unidad_5_Ejercicio en clase 1\Unidad_5_Ejercicio en clase 1.csproj", "{228012D6-0453-4465-9BAF-F9E3B072068A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase07_Form_Veterinaria", "Clase07_Form_Veterinaria\Clase07_Form_Veterinaria.csproj", "{22765B60-F034-40D4-AD4F-90A8E9EB6B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidad 6 Ejercicios - Colecciones", "Unidad 6 Ejercicios - Colecciones", "{B578ADB7-8F92-4B1E-96FE-71EB89114101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca_Unidad_6_Ej en clase 01", "Biblioteca_Unidad_6_Ej en clase 01\Biblioteca_Unidad_6_Ej en clase 01.csproj", "{67D2E993-CE42-4BE2-B36D-A658427E453E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unidad_6_Ejercicio en clase 01", "Unidad_6_Ejercicio en clase 01\Unidad_6_Ejercicio en clase 01.csproj", "{EF23AEC1-30F8-4F90-9382-E29866FCF8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase08_Encapsulamiento", "Clase08_Encapsulamiento\Clase08_Encapsulamiento.csproj", "{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +361,22 @@ Global
 		{228012D6-0453-4465-9BAF-F9E3B072068A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228012D6-0453-4465-9BAF-F9E3B072068A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228012D6-0453-4465-9BAF-F9E3B072068A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22765B60-F034-40D4-AD4F-90A8E9EB6B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22765B60-F034-40D4-AD4F-90A8E9EB6B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22765B60-F034-40D4-AD4F-90A8E9EB6B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22765B60-F034-40D4-AD4F-90A8E9EB6B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D2E993-CE42-4BE2-B36D-A658427E453E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D2E993-CE42-4BE2-B36D-A658427E453E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D2E993-CE42-4BE2-B36D-A658427E453E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D2E993-CE42-4BE2-B36D-A658427E453E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF23AEC1-30F8-4F90-9382-E29866FCF8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF23AEC1-30F8-4F90-9382-E29866FCF8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF23AEC1-30F8-4F90-9382-E29866FCF8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF23AEC1-30F8-4F90-9382-E29866FCF8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -410,6 +436,10 @@ Global
 		{8D2A656C-6101-49D2-A01E-36248A1ED00C} = {08BFB956-6AEE-47EB-82B9-73BAAC9B2580}
 		{232EE919-8261-4068-B33A-41D008415576} = {08BFB956-6AEE-47EB-82B9-73BAAC9B2580}
 		{228012D6-0453-4465-9BAF-F9E3B072068A} = {08BFB956-6AEE-47EB-82B9-73BAAC9B2580}
+		{22765B60-F034-40D4-AD4F-90A8E9EB6B5C} = {9F20F6AB-67C1-4D42-85B3-BD3EA42CC3EE}
+		{67D2E993-CE42-4BE2-B36D-A658427E453E} = {B578ADB7-8F92-4B1E-96FE-71EB89114101}
+		{EF23AEC1-30F8-4F90-9382-E29866FCF8F2} = {B578ADB7-8F92-4B1E-96FE-71EB89114101}
+		{8D2D219E-CD6D-4CCC-B95A-48B71635D1FB} = {9F20F6AB-67C1-4D42-85B3-BD3EA42CC3EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22992F05-F248-44D1-811F-F8EF2B92499C}
